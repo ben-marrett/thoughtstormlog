@@ -1,3 +1,10 @@
+## Thoughtstorm® Log.
+For more information on Thoughtstorm, see [here](https://www.avataroceania.com/thoughtstorm/).
+
+The Thoughtstorm Manual by Harry Palmer is available to buy [here](https://www.avataroceania.com/shop/thoughtstorm-manual/).
+
+## Built with Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

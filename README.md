@@ -1,7 +1,9 @@
 ## Thoughtstorm® Log.
-For more information on Thoughtstorm, see [here](https://www.avataroceania.com/thoughtstorm/).
+For more information on Thoughtstorm, visit [Avatar® Oceania](https://www.avataroceania.com/thoughtstorm/).
 
-The Thoughtstorm Manual by Harry Palmer is available to buy [here](https://www.avataroceania.com/shop/thoughtstorm-manual/).
+The Thoughtstorm Manual by Harry Palmer is available to buy in the [bookstore](https://www.avataroceania.com/shop/thoughtstorm-manual/).
+
+Thoughtstorm® is a registered trademark of Star’s Edge, Inc. All rights reserved.
 
 ## Built with Next.js
 

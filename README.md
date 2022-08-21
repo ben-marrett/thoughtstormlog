@@ -3,7 +3,6 @@ For more information on Thoughtstorm, visit [Avatar® Oceania](https://www.avata
 
 The Thoughtstorm Manual by Harry Palmer is available to buy in the [bookstore](https://www.avataroceania.com/shop/thoughtstorm-manual/).
 
-Thoughtstorm® is a registered trademark of Star’s Edge, Inc. All rights reserved.
 
 ## Built with Next.js
 
@@ -41,3 +40,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Copyright
+
+Thoughtstorm® is a registered trademark of Star’s Edge, Inc. All rights reserved.

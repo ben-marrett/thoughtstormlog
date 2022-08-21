@@ -8,12 +8,15 @@ export default function Home() {
       <Head>
         <title>Thoughtstorm® Log</title>
         <meta name="description" content="Thoughtstorm® Log" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Tstorm_logo-2017.jpg" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to{' '}
+          <a href="https://www.avataroceania.com/thoughtstorm/">
+            Thoughtstorm®
+          </a>
         </h1>
 
         <p className={styles.description}>
@@ -62,6 +65,11 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
+        </a>
+        <br />
+        <a>
+          Thoughtstorm® is a registered trademark of Star’s Edge, Inc. All
+          rights reserved.
         </a>
       </footer>
     </div>

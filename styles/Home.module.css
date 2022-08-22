@@ -35,6 +35,10 @@
   flex-grow: 1;
 }
 
+.official {
+  font-family: capitalz;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;

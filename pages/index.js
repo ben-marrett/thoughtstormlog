@@ -63,8 +63,8 @@ export default function Home() {
         </a>
         <br />
         <a>
-          Thoughtstorm® is a registered trademark of Star’s Edge, Inc. All
-          rights reserved.
+          Thoughtstorm® and Avatar® are registered trademarks of Star’s Edge,
+          Inc. All rights reserved.
         </a>
       </footer>
     </div>

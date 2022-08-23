@@ -12,45 +12,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to{' '}
-          <a
-            href="https://www.avataroceania.com/thoughtstorm/"
-            className={styles.official}
-          >
-            Thoughtstorm®
-          </a>
-        </h1>
-
-        <p className={styles.description}>This is a page to record your log.</p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Logs &rarr;</h2>
-            <p>Click to begin a new log or see older logs.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Instructions &rarr;</h2>
-            <p>Read through the Thoughtstorm® instructions.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Avatar &rarr;</h2>
-            <p>Get more information on Avatar.</p>
-          </a>
-        </div>
+        <Image
+          src="/Tstorm_logo-2017.jpg"
+          alt="Thoughtstorm Logo"
+          width={450}
+          height={450}
+        />
       </main>
 
       <footer className={styles.footer}>

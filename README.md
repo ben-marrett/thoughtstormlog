@@ -4,8 +4,8 @@ For more information on Thoughtstorm, visit [Avatar® Oceania](https://www.avata
 The Thoughtstorm Manual by Harry Palmer is available to buy in the [bookstore](https://www.avataroceania.com/shop/thoughtstorm-manual/).
 
 ## Update
-22/08/2022: Still in the early stages here. I am exploring how I can make the log basically like a blog, with the option to update it with
-a form that takes in the date, roll call, questions, corecepts etc. I am unsure at present how I will turn this form data into markdown ready to be rendered, or if that is even the best approach.
+22/08/2022: Still in the early stages here. I am exploring how I can make the log page with the option to update it with
+a form that takes in the date, roll call, questions, corecepts etc. I am unsure at present how I will turn this form data into markdown ready to be rendered, or if that is even the best approach. Parallax effect could be fun.
 
 
 ## Built with Next.js

@@ -22,6 +22,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        <a className={styles.official}> Dedicated to the companions who see the possibility</a>
+        <br />
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"

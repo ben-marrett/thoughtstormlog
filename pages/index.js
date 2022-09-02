@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.official}> Record your log here.</h1>
+        <h2 className={styles.official}> Record your logs here.</h2>
         <Image
           src="/images/Tstorm_logo-2017.jpg"
           alt="Thoughtstorm Logo"

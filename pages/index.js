@@ -23,7 +23,7 @@ export default function Home() {
 
         <Link href={`/logs/first-log`}>View logs</Link>
         <br />
-        <Link href={`/logs/new`}>Record new log</Link>
+        <Link href={`/logs/new-log`}>Record new log</Link>
       </main>
 
       <footer className={styles.footer}>

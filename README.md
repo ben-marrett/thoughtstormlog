@@ -1,4 +1,9 @@
 ## Thoughtstorm® Log.
+
+My aim for this project is to create a good-looking, simple and functional site where the user can log their discoveries from a Thoughtstorm session.
+I would like to incorporate search functionality to be able to search the recorded logs by date or key words.
+As a stretch, I would like to add a Parallax effect on the home page.
+
 For more information on Thoughtstorm, visit [Avatar® Oceania](https://www.avataroceania.com/thoughtstorm/).
 
 The Thoughtstorm Manual by Harry Palmer is available to buy in the [bookstore](https://www.avataroceania.com/shop/thoughtstorm-manual/).

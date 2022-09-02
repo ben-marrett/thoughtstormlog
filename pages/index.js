@@ -9,13 +9,13 @@ export default function Home() {
       <Head>
         <title>Thoughtstorm® Log</title>
         <meta name="description" content="Thoughtstorm® Log" />
-        <link rel="icon" href="/Tstorm_logo-2017.jpg" />
+        <link rel="icon" href="/images/Tstorm_logo-2017.jpg" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.official}> Record your log here.</h1>
         <Image
-          src="/Tstorm_logo-2017.jpg"
+          src="/images/Tstorm_logo-2017.jpg"
           alt="Thoughtstorm Logo"
           width={450}
           height={450}

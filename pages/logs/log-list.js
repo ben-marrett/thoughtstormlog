@@ -1,14 +1,14 @@
 import Link from "next/link"
-import Head from "next/head"
 import Image from "next/image"
+import Head from "next/head"
 import styles from '../../styles/Home.module.css'
 
-export default function NewLog() {
+export default function FirstLog() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>New Log</title>
-        <meta name="description" content="New Log" />
+        <title>Thoughtstorm® Log</title>
+        <meta name="description" content="Thoughtstorm® Log" />
         <link rel="icon" href="/images/Tstorm_logo-2017.jpg" />
       </Head>
 
@@ -19,7 +19,8 @@ export default function NewLog() {
           width={90}
           height={80}
         />
-        <h1>New log form here</h1>
+
+        <h1>List logs here</h1>
 
         <Link href="/">Back to home</Link>
       </main>

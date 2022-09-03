@@ -21,7 +21,7 @@ export default function Home() {
           height={450}
         />
 
-        <Link href={`/logs/first-log`}>View logs</Link>
+        <Link href={`/logs/log-list`}>View logs</Link>
         <br />
         <Link href={`/logs/new-log`}>Record new log</Link>
       </main>

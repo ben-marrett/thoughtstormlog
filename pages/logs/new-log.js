@@ -2,6 +2,7 @@ import Link from "next/link"
 import Head from "next/head"
 import Image from "next/image"
 import styles from '../../styles/Home.module.css'
+import LogForm from "../form"
 
 export default function NewLog() {
   return (
@@ -19,7 +20,8 @@ export default function NewLog() {
           width={90}
           height={80}
         />
-        <h1>New log form here</h1>
+        <h1>Enter your new log.</h1>
+        <LogForm />
 
         <Link href="/">Back to home</Link>
       </main>

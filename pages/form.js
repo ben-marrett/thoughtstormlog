@@ -1,6 +1,11 @@
+import ReactDatePicker from "react-datepicker"
+import { useState } from "react"
+import 'react-datepicker/dist/react-datepicker.css'
 
 export default function LogForm() {
- 
+
+  const [startDate, setStartDate] = useState(new Date())
+
   return (
     <>
       <form action="/my-handling-form-page" method="post">
@@ -15,13 +20,15 @@ export default function LogForm() {
           </li>
           <li>
             <label htmlFor="date">Date:</label>
-            <input type="datetime-local" name="datetime" id="datetime" />
+            <ReactDatePicker
+              selected={startDate}
+              onChange={(date) => setStartDate(date)}
+            />
 
             <label htmlFor="start">Session Start:</label>
-            <input type="time" name="time" id="time" />
+            <input type="time" name="start_time" id="start" />
             <label htmlFor="end">End:</label>
-            <input type="time" name="time" id="time"/>
-
+            <input type="time" name="end_time" id="end" />
           </li>
           <li>
             <label htmlFor="roll">Roll Call:</label>
@@ -39,7 +46,7 @@ export default function LogForm() {
             <textarea id="practical" name="practical_applications"></textarea>
           </li>
           <li>
-          <button type="submit">Submit</button>
+            <button type="submit">Submit</button>
           </li>
         </ul>
       </form>

@@ -19,6 +19,7 @@ export default function Home() {
           alt="Thoughtstorm Logo"
           width={450}
           height={450}
+          priority
         />
 
         <Link href={`/logs/log-list`}>View logs</Link>

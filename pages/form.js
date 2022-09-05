@@ -42,6 +42,7 @@ export default function LogForm() {
           id="roll"
           name="roll"
           placeholder="Enter names here"
+          maxLength="140"
         ></textarea>
         <br />
 
@@ -51,6 +52,7 @@ export default function LogForm() {
           id="ideas"
           name="ideas"
           placeholder="Enter ideas explored here"
+          maxLength="140"
         ></textarea>
         <br />
         <label htmlFor="corecepts">Corecepts:</label>
@@ -59,6 +61,7 @@ export default function LogForm() {
           id="corecepts"
           name="corecepts"
           placeholder="Enter any corecepts discovered here"
+          maxLength="100"
         ></textarea>
         <br />
         <label htmlFor="practical">Practical Applications:</label>
@@ -67,6 +70,7 @@ export default function LogForm() {
           id="practical"
           name="practical_applications"
           placeholder="Enter practical applications here"
+          maxLength="140"
         ></textarea>
         <br />
         <button type="submit">Submit</button>

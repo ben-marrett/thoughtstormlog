@@ -8,7 +8,7 @@ export default function LogForm() {
 
   return (
     <>
-      <form action="/my-handling-form-page" method="post">
+      <form action="/api/form" method="post">
         <label htmlFor="question">Thoughtstorming Question:</label>
         <br />
         <input
@@ -18,6 +18,8 @@ export default function LogForm() {
           placeholder="Enter question here"
           required
           autoFocus
+          // pattern="\?$/gm"
+          title="Question should end with a question mark (?)."
         ></input>
         <br />
         <label htmlFor="date">Date:</label>

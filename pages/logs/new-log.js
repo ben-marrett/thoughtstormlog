@@ -22,7 +22,7 @@ export default function NewLog() {
         />
         <h1>Enter new log:</h1>
         <LogForm />
-
+        <br />
         <Link href="/">Back to home</Link>
       </main>
     </div>

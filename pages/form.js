@@ -15,6 +15,9 @@ export default function LogForm() {
           type="text"
           id="question"
           name="thoughtstorming_question"
+          placeholder="Enter question here"
+          required
+          autoFocus
         ></input>
         <br />
         <label htmlFor="date">Date:</label>
@@ -22,6 +25,7 @@ export default function LogForm() {
         <ReactDatePicker
           selected={startDate}
           onChange={(date) => setStartDate(date)}
+          required
         />
         <br />
 
@@ -34,20 +38,36 @@ export default function LogForm() {
 
         <label htmlFor="roll">Roll Call:</label>
         <br />
-        <textarea id="roll" name="roll"></textarea>
+        <textarea
+          id="roll"
+          name="roll"
+          placeholder="Enter names here"
+        ></textarea>
         <br />
 
         <label htmlFor="ideas">Ideas:</label>
         <br />
-        <textarea id="ideas" name="ideas"></textarea>
+        <textarea
+          id="ideas"
+          name="ideas"
+          placeholder="Enter ideas explored here"
+        ></textarea>
         <br />
         <label htmlFor="corecepts">Corecepts:</label>
         <br />
-        <textarea id="corecepts" name="corecepts"></textarea>
+        <textarea
+          id="corecepts"
+          name="corecepts"
+          placeholder="Enter any corecepts discovered here"
+        ></textarea>
         <br />
         <label htmlFor="practical">Practical Applications:</label>
         <br />
-        <textarea id="practical" name="practical_applications"></textarea>
+        <textarea
+          id="practical"
+          name="practical_applications"
+          placeholder="Enter practical applications here"
+        ></textarea>
         <br />
         <button type="submit">Submit</button>
         <br />

@@ -17,7 +17,5 @@ export default function handler(req, res) {
   // Sends a HTTP success code
   res
     .status(200)
-    .json({ data: `${body}` })
+    .json({ data: `${body.thoughtstorming_question} ${body.ideas}` })
 }
-
-// json({ data: `${body.thoughtstorming_question} ${body.ideas}` })

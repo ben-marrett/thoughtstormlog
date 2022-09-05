@@ -20,7 +20,7 @@ export default function NewLog() {
           width={90}
           height={80}
         />
-        <h1>Enter your new log.</h1>
+        <h1>Enter new log:</h1>
         <LogForm />
 
         <Link href="/">Back to home</Link>

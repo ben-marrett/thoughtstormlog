@@ -2,7 +2,7 @@ import Link from "next/link"
 import Head from "next/head"
 import Image from "next/image"
 import styles from '../../styles/Home.module.css'
-import LogForm from "../form"
+import LogForm from "../../lib/form"
 
 export default function NewLog() {
   return (

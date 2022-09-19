@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -27,28 +28,7 @@ export default function Home() {
         <Link href={`/logs/new-log`}>Record new log</Link>
       </main>
 
-      <footer className={styles.footer}>
-        <a className={styles.official}>
-          {' '}
-          Dedicated to the companions who see the possibility
-        </a>
-        <br />
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-        <br />
-        <a>
-          Thoughtstorm® and Avatar® are registered trademarks of Star’s Edge,
-          Inc. All rights reserved.
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }

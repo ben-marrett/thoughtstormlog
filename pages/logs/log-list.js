@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Head from "next/head"
 import styles from '../../styles/Home.module.css'
+import Footer from "../../lib/footer"
 
 export default function FirstLog() {
   return (
@@ -24,6 +25,7 @@ export default function FirstLog() {
 
         <Link href="/">Back to home</Link>
       </main>
+      <Footer />
     </div>
   )
 }

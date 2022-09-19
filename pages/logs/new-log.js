@@ -3,6 +3,7 @@ import Head from "next/head"
 import Image from "next/image"
 import styles from '../../styles/Home.module.css'
 import LogForm from "../../lib/form"
+import Footer from "../../lib/footer"
 
 export default function NewLog() {
   return (
@@ -25,6 +26,7 @@ export default function NewLog() {
         <br />
         <Link href="/">Back to home</Link>
       </main>
+      <Footer />
     </div>
   )
 }

@@ -23,7 +23,7 @@ export default function Home() {
           priority
         />
 
-        <Link href={`/logs/log-list`}>View logs</Link>
+        <Link href={`/logs/view-logs`}>View logs</Link>
         <br />
         <Link href={`/logs/new-log`}>Record new log</Link>
       </main>

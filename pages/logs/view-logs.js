@@ -21,11 +21,11 @@ export default function FirstLog() {
           width={90}
           height={80}
         />
-
-        <h1>List logs here</h1>
-
-        <SearchForm />
-        
+        <br />
+        <Link href="/">Browse All.</Link>
+        <br />
+        <Link href="/logs/search-logs">Search Logs.</Link>
+        <br />
         <Link href="/">Back to home</Link>
       </main>
       <Footer />

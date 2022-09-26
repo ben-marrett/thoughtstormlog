@@ -24,9 +24,9 @@ export default function SearchLogs() {
         />
         <br />
         <SearchForm />
-
+        <br />
         <Link href="/logs/view-logs">Return to logs</Link>
-
+        <br />
         <Link href="/">Home.</Link>
       </main>
     </div>

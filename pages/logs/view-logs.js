@@ -3,7 +3,6 @@ import Image from "next/image"
 import Head from "next/head"
 import styles from '../../styles/Home.module.css'
 import Footer from "../../lib/footer"
-import SearchForm from "../../lib/searchForm"
 
 export default function FirstLog() {
   return (
@@ -22,7 +21,7 @@ export default function FirstLog() {
           height={80}
         />
         <br />
-        <Link href="/">Browse All</Link>
+        <Link href="/logs/all-logs">Browse All</Link>
         <br />
         <Link href="/logs/search-logs">Search Logs</Link>
         <br />

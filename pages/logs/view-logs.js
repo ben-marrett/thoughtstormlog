@@ -22,9 +22,9 @@ export default function FirstLog() {
           height={80}
         />
         <br />
-        <Link href="/">Browse All.</Link>
+        <Link href="/">Browse All</Link>
         <br />
-        <Link href="/logs/search-logs">Search Logs.</Link>
+        <Link href="/logs/search-logs">Search Logs</Link>
         <br />
         <Link href="/">Back to home</Link>
       </main>

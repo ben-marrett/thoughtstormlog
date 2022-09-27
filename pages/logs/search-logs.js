@@ -15,7 +15,7 @@ export default function SearchLogs() {
       </Head>
 
       <main className={styles.main}>
-        <h2 className={styles.official}> Search.</h2>
+        {/* <h2 className={styles.official}> Search</h2> */}
         <Image
           src="/images/Tstorm_no-text.png"
           alt="Thoughtstorm logo with no text"
@@ -27,7 +27,7 @@ export default function SearchLogs() {
         <br />
         <Link href="/logs/view-logs">Return to logs</Link>
         <br />
-        <Link href="/">Home.</Link>
+        <Link href="/">Home</Link>
       </main>
     </div>
   )

@@ -25,7 +25,7 @@ export default function FirstLog() {
         <br />
         <Link href="/logs/search-logs">Search Logs</Link>
         <br />
-        <Link href="/">Back to home</Link>
+        <Link href="/">Home</Link>
       </main>
       <Footer />
     </div>
